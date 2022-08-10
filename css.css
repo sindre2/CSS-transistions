@@ -1,0 +1,156 @@
+
+h1
+{
+    transition: all 2s linear;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1:hover
+{
+    font-size: 4rem;
+    color: blueviolet;
+}
+
+#para-lol
+{
+    transition: all 10ms;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    text-align: center;
+
+    height: 4rem;
+    width: 12rem;
+
+    animation-delay: 2s;
+}
+
+#para-lol:hover
+{
+    width: 34rem;
+    text-align: end;
+}
+
+
+
+/* --- Image settings --- */
+
+.image-container > img
+{
+    display: block;
+    margin: 2rem 2rem 2rem 80%;
+    transition: all 4s;
+}
+
+.image-container > img:hover
+{
+    transform: rotate(720deg);
+    margin: 2rem 2rem 2rem 40%;
+    border-radius: 50%;
+
+}
+
+#burns
+{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    opacity: 0%;
+    transition: opacity 6s;
+    z-index: -1;
+}
+
+#background-float
+{
+    height: 4rem;
+    width: 4rem;
+    background-color: darkcyan;
+}
+
+
+#background-float:hover #burns
+{
+    opacity: 100%;
+}
+
+
+
+/* --- END --- */
+
+
+
+/* --- The three colored bars --- */
+
+#a1, #a2, #a3
+{
+    height: 4rem;
+    width: 6rem;
+    margin: 1rem;
+    width: 100px;
+}
+
+#a1
+{
+    background-color: red;
+    transition: all 3s;
+}
+
+#a1:hover, #a2:hover
+{
+    width: 700px;
+}
+
+#a2
+{
+    background-color: aqua;
+    transition: all 3s;
+    transition-timing-function: cubic-bezier(0.2, 0.9, 0.1, 0.5);
+    
+}
+
+#a3
+{
+    background-color: blue;
+    transition: all 2s;
+    
+}
+
+#a3:hover
+{
+    height: 700px;
+}
+
+/* --- END --- */
+
+
+
+/* --- Annoying list settings --- */
+
+#annoying-list
+{
+    width: 10rem;
+    height: 1.5rem;
+    background-color: cornflowerblue;
+    transition: height 300s;
+    margin: 2rem auto 4rem;
+}
+
+#annoying-list > ol
+{
+    display: none;
+    transition: display 1000s;
+    color: white;
+}
+
+#annoying-list:hover
+{
+    height: 500px;
+}
+
+
+#annoying-list:hover > ol
+{
+    display: block;
+}
+
+/* --- END --- */
