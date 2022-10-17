@@ -1,2 +1,2 @@
 # CSS-transistions
-Just some basic use of css animations and javascript.
+Just some basic use of css animations and hover effects.
