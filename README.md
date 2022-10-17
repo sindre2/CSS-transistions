@@ -1,2 +1,2 @@
 # CSS-transistions
-And this is a readme-file
+Just some basic use of css animations and javascript.
